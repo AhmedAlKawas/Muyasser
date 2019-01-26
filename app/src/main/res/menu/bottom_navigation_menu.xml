@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/feeds"
+        android:id="@+id/feeds"
+        android:icon="@drawable/ic_rss_feed_black_24dp"/>
+
+    <item android:title="@string/fatawi"
+        android:id="@+id/fatawi"
+        android:icon="@drawable/fatwa_24dp"/>
+
+    <item android:title="@string/translation"
+        android:id="@+id/translation"
+        android:icon="@drawable/ic_translate_black_24dp"/>
+
+    <item android:title="@string/health_consultation"
+        android:id="@+id/health_consultation"
+        android:icon="@drawable/health_24dp"/>
+
+    <item android:title="Settings"
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"/>
+
+</menu>

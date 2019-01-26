@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Muyasser</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="log_in">Log In</string>
+    <string name="not_already_a_user">Not already a user?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_username">Please enter your username</string>
+    <string name="empty_email">Email cannot be empty</string>
+    <string name="email_not_formatted">Email not correctly formatted</string>
+    <string name="sign_up_failed">Sign up failed!</string>
+    <string name="feeds">Feeds</string>
+    <string name="fatawi">Fatawi</string>
+    <string name="translation">Translation</string>
+    <string name="health_consultation">Health consultation</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>عربي</item>
+        <item>اردو</item>
+        <item>malay</item>
+        <item>Turk</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

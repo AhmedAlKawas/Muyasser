@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    android:id="@+id/fatwaCard"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="120dp"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/fatwaprofile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_person_black_24dp"
+            android:background="@color/colorPrimary"
+            android:backgroundTint="@android:color/white"
+            android:tint="@color/TextOnLight"
+            fancy:civ_border_color="@color/colorPrimaryDark"
+            fancy:layout_constraintTop_toTopOf="parent"
+            fancy:layout_constraintBottom_toBottomOf="parent"
+            fancy:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:id="@+id/fatwaUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fancy:layout_constraintTop_toTopOf="@id/fatwaprofile"
+            fancy:layout_constraintBottom_toBottomOf="@id/fatwaprofile"
+            fancy:layout_constraintStart_toEndOf="@id/fatwaprofile"
+            android:layout_margin="25dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
